@@ -38,25 +38,15 @@
       </div>
 
 
-      <div class="collapse navbar-collapse" id="navbar-collapse-main">
-        <ul class="nav navbar-nav navbar-right">
+<?php include "../includes/header_links.php" ?>
 
-          <li><a  href="../index.php">HOME </a></li>
-          <li><a href="#">PROFILE </a></li>
-          <li><a  href="#">AUTHORS </a></li>
-          <li><a  href="../rgform/regform.php">REGISTER </a></li>
-          <li><a  href="#myModal" data-toggle="modal">LOGIN </a></li>
-          <li><a  class="active" href="#">ABOUT </a></li>
-
-        </ul>
-      </div>
   </div>
   </nav>
 
 <br> <br> <br>
 
 
-<div class="jumbotron text-center bcolor">
+<div class="jumbotron text-center bcolor" style="background-image: url(4.jpg);background-repeat: repeat;background-size: contain">
   <h1>ABOUT US</h1>
   <p>Aspire To Aspire!</p> 
   <p></p> 
@@ -75,7 +65,7 @@
   <div class="container">
     <div class="row">
 
-       <div class="col-sm-3 info">
+       <div class="col-sm-3 info" style="background-image: url(quotes2.jpg);background-repeat: repeat;background-size: contain">
         <h3>A Galore Of Quotes</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
@@ -84,7 +74,7 @@
        <div class="col-sm-1"></div>
 
 
-      <div class="col-sm-3 info">
+      <div class="col-sm-3 info"style="background-image: url(quotes2.jpg);background-repeat: repeat;background-size: contain">
         <h3>User friendly interface</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
@@ -92,7 +82,7 @@
 
        <div class="col-sm-1"></div>
 
-      <div class="col-sm-4 info">
+      <div class="col-sm-4 info"style="background-image: url(quotes2.jpg);background-repeat: repeat;background-size: contain">
         <h3>Share your thoughts</h3>        
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
@@ -100,34 +90,18 @@
 
     </div>
   </div>
+  <br><br>
+
+
 
 
 <br> <br> <br>
 
-<footer class="container-fluid text-center">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Contact us</h3> 
-      <br>
-      <h4>Email us at: random@gmail.com </h4>
-      <h4>Address: afdsgdsg </h4>
-    </div>
 
-     <div class="col-sm-4">
-      <h3>Connect With</h3>
-      <a href="#" class="fa fa-facebook"></a>
-      <a href="#" class="fa fa-twitter"></a>
-      <a href="#" class="fa fa-google"></a>
-      <a href="#" class="fa fa-linkedin"></a>
-      <a href="#" class="fa fa-youtube"></a>
-    </div>
 
-    <div class="col-sm-4">
-      <img src = "../img/logo.png" class="icon" width="90" height="50">
-    </div>
 
-  </div>
-</footer>
+<?php include "../includes/footer.php" ?>
+
 
 <?php include "../loginForm/loginForm.php" ?>
 
